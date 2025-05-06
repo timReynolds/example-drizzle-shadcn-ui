@@ -1,5 +1,5 @@
 import { users } from "../../db/schema";
-import { RouteOptions } from "@redwoodjs/sdk/router";
+import { RouteOptions } from "rwsdk/router";
 import { AppContext } from "@/worker";
 
 export async function Home({ appContext }: RouteOptions<AppContext>) {
