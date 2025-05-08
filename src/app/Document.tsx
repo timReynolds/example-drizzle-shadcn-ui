@@ -6,10 +6,12 @@ export const Document: React.FC<{ children: React.ReactNode }> = ({
       <meta charSet="utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <title>@redwoodjs/starter-drizzle</title>
-      <script type="module" src="/src/client.tsx"></script>
+      <link rel="modulepreload" href="/src/client.tsx" />
+      <link href="/src/app/styles.css" rel="stylesheet"></link>
     </head>
     <body>
       <div id="root">{children}</div>
+      <script src="/src/client.tsx"></script>
     </body>
   </html>
 );

@@ -3,7 +3,7 @@
   "$schema": "node_modules/wrangler/config-schema.json",
 
   // Worker name
-  "name": "__change_me__",
+  "name": "drizzle",
 
   // Entry point
   "main": "src/worker.tsx",
@@ -22,8 +22,8 @@
   "d1_databases": [
     {
       "binding": "DB",
-      "database_name": "__change_me__",
-      "database_id": "__change_me__",
+      "database_name": "drizzle",
+      "database_id": "e9ba1fc5-f36a-4a9f-a222-925de38426dc",
       "migrations_dir": "drizzle"
     }
   ],
