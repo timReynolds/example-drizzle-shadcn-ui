@@ -1,5 +1,4 @@
 import { users } from "../../db/schema";
-import { env } from "cloudflare:workers";
 import { RequestInfo } from "rwsdk/worker";
 
 const Home = async ({ ctx }: RequestInfo) => {
