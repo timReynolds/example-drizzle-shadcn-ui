@@ -25,9 +25,16 @@
     "types": "npm run tsc"
   },
   "dependencies": {
-    "rwsdk": "0.0.83",
+    "@radix-ui/react-slot": "^1.2.2",
+    "@tailwindcss/vite": "^4.1.7",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
     "dotenv": "^16.5.0",
-    "drizzle-orm": "^0.43.1"
+    "drizzle-orm": "^0.43.1",
+    "lucide-react": "^0.511.0",
+    "rwsdk": "0.0.83",
+    "tailwind-merge": "^3.3.0",
+    "tailwindcss": "^4.1.7"
   },
   "devDependencies": {
     "@types/node": "^22.15.18",
@@ -35,6 +42,7 @@
     "@types/react-dom": "^19.1.5",
     "drizzle-kit": "^0.31.1",
     "tsx": "^4.19.4",
+    "tw-animate-css": "^1.3.0",
     "vite": "^6.3.5",
     "wrangler": "^4.15.2"
   },
