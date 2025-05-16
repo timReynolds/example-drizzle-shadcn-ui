@@ -1,13 +1,13 @@
-# RedwoodSDK Example: Drizzle ORM
+# RedwoodSDK Example: Drizzle ORM & shadcn/ui
 
-This starter makes it easy to start up a project with database using Drizzle.
+This starter makes it easy to start up a project with database using Drizzle and shadcn/ui, my preferred starter.
 
 ## Creating your project
 
 Create your new project:
 
 ```shell
-npx degit redwoodjs/example-drizzle my-project-name
+npx degit timReynolds/redwoodSDK-example-drizzle-shadcnui my-project-name
 cd my-project-name
 pnpm install
 ```
@@ -35,9 +35,9 @@ Within your project's `wrangler.jsonc` file, replace the placeholder values. For
       "binding": "DB",
       "database_name": "my-project-db",
       "database_id": "YOUR-DB-ID-HERE",
-      "migrations_dir": "drizzle",
-    },
-  ],
+      "migrations_dir": "drizzle"
+    }
+  ]
 }
 ```
 
@@ -103,3 +103,5 @@ For database management, we recommend [Bee Keeper Studio](https://www.beekeepers
 
 - [Drizzle Documentation](https://orm.drizzle.team)
 - [Cloudflare D1 Documentation](https://developers.cloudflare.com/d1)
+- [Tailwind Documentation](https://tailwindcss.com/)
+- [shadcn/ui Documentation](https://ui.shadcn.com/)
