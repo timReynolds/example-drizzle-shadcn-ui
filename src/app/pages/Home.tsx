@@ -1,8 +1,9 @@
+import { db } from "@/db";
 import { users } from "../../db/schema";
-import { RequestInfo } from "rwsdk/worker";
 import { Button } from "@/app/components/ui/button";
-const Home = async ({ ctx }: RequestInfo) => {
-  const allUsers = await ctx.db.select().from(users).all();
+
+const Home = async () => {
+  const allUsers = await db.select().from(users).all();
   return (
     <div>
       <h1 className="text-4xl font-bold ">Hello World</h1>
